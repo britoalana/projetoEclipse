@@ -1,0 +1,66 @@
+#background {
+    background-color: #AE87D6;
+}
+
+header {
+    background-color: #9B6CCA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    background-color: #6E2A8D;
+    border-radius: 10px;
+}
+
+.img {
+    padding: 1rem;
+}
+
+.ranking {
+    margin-left: 2rem;
+}
+
+.torneios {
+    background-color: #9562BD;
+    text-align: center;
+    padding: 2rem;
+}
+
+.comunidades {
+    background-color: #9562BD;
+    text-align: center;
+    padding: 2rem;
+}
+
+button{
+    border: none;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.button {
+    background-color: #AE87D6;
+    border-radius: 30px;
+    width: 160px;
+    height: 140px;
+    border: none;
+    display: inline;
+    margin: 0 2rem;
+}
+
+
+@media only screen and (max-width:768px){
+    
+      .button{
+        margin-bottom: 2rem;
+    }
+}
